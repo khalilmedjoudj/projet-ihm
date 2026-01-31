@@ -19,6 +19,9 @@
 *.tar.gz
 *.rar
 
+# But allow lib folder JARs (dependencies)
+!lib/*.jar
+
 # Virtual machine crash logs
 hs_err_pid*
 
