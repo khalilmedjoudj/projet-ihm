@@ -66,4 +66,8 @@ The application uses SQLite database (`fastfood.db`) to store:
 
 ## Author
 
-Created for IHM (Interface Homme-Machine) course project
+Created for IHM (Interface Homme-Machine) course project by
+medjoudj khalil 
+mazouzi amin
+koreichi ahmed heithem   
+g4
