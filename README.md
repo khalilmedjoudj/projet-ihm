@@ -28,11 +28,34 @@ A Java-based fast food management application with a graphical user interface.
 
 ## How to Run
 
-1. Compile all Java files
-2. Run the Main class:
+### Option 1: Using the All-in-One Script (Recommended)
+Simply double-click `compile_and_run.bat` or run:
+```bash
+compile_and_run.bat
+```
+This will automatically compile and run the application.
+
+### Option 2: Compile and Run Separately
+1. First compile the project:
    ```bash
-   java Main
+   compile.bat
    ```
+2. Then run the application:
+   ```bash
+   run.bat
+   ```
+
+### Option 3: Manual Compilation
+If you prefer to compile and run manually:
+```bash
+# Compile
+javac -cp ".;lib/*" *.java
+
+# Run
+java -cp ".;lib/*" Main
+```
+
+**Note:** The `-cp ".;lib/*"` is essential as it includes the SQLite JDBC driver and logging libraries.
 
 ## Database
 
